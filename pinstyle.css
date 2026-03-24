@@ -1,0 +1,644 @@
+body{
+    background-color: white;
+    height: 100%;
+    
+}
+
+
+#b1{
+    background-color: rgb(223, 11, 11);
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 905px;
+    border-style: none;
+    z-index: 88;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#b1:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.search{
+    width: unset;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 12px;
+    background-color: rgb(224, 223, 223);
+    position: fixed;
+    left: 85px;
+    right: 145px;
+    top: 15px;
+    z-index: 9999;
+
+}
+
+.search-input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(43, 43, 43);
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search-icon{
+    color: rgb(165, 164, 164);
+}
+
+.search:hover{
+    background-color: rgb(206, 203, 203);
+}
+
+#nocomments{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 250px;
+    top: 909px;
+    font-size: large;
+}
+
+.comments{
+    width: unset;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: gray;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 230px;
+    right: 930px;
+    top: 950px;
+    z-index: 9999;
+
+}
+
+.comments-input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(43, 43, 43);
+    margin-left: 10px;
+    width: 500px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.comments:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.mic{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 9px;
+    background-color: rgb(224, 223, 223);
+    position: fixed;
+    top: 18px;
+    right: 160px;
+    z-index: 9999;
+}
+
+.mic:hover{
+    background-color:rgb(245, 244, 244) ;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 14px;
+    top: 125px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.home:hover{
+    background-color: rgb(243, 242, 242) ;
+}
+
+.arrow_back{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.arrow_back:hover{
+    background-color: rgb(243, 242, 242) ;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 12px;
+    top: 800px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 13px;
+}
+
+.settings:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.favorite{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 220px;
+    top: 110px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+
+}
+
+.favorite:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.mode_comment{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 110px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+}
+
+.mode_comment:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.more_horiz{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 460px;
+    top: 108px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+}
+
+.more_horiz:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 380px;
+    top: 108px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+}
+
+.share:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.pan_zoom{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 790px;
+    top: 710px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+    background: rgb(175, 174, 174);
+    opacity: .6;
+}
+
+.pan_zoom:hover{
+    background-color: rgb(243, 242, 242);
+    opacity: 1.0;
+}
+
+.image_search{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 790px;
+    top: 780px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 88;
+    background: rgb(175, 174, 174);
+    opacity: .6;
+}
+
+.image_search:hover{
+    background-color: rgb(243, 242, 242);
+    opacity: 1.0;
+}
+#searchboxoutline{
+    border: none;
+    height: 85px;
+    left: 80px;
+    right: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 5px;
+}
+
+#verticalline{
+    height: 1710px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid rgb(155, 153, 153);
+    left: 75px;
+}
+
+#pinterestlogo{
+    position: fixed;
+    left: 13px;
+    top: 20px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#pinterestlogo:hover{
+    background-color: rgb(243, 242, 242) ;
+}
+
+#linkedin{
+    position: fixed;
+    left: 13px;
+    top: 240px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 5px;
+    padding-bottom: 3px;
+    background-color: white;
+}
+
+#linkedin:hover{
+    background-color: rgb(243, 242, 242) ;
+}
+
+#insta{
+    position: fixed;
+    left: 13px;
+    top: 370px;
+    border-style: none;
+    border-radius: 15px;
+    padding: 5px;
+    padding-bottom: 3px;
+    background-color: white; 
+}
+
+#insta:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    left: 775px; 
+    top: 102.5px;
+    margin-top: none;
+    z-index: 88;
+}
+.dropdown button{
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+.dropdown a{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgb(250, 245, 245);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px;
+}
+.dropdown:hover  .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(253, 253, 253);
+}
+.dropdown a:hover{
+    background-color: rgb(209, 207, 207);
+}
+
+
+.outerbox{
+    display: inline-block;
+    position: absolute;
+    border: 1px solid rgb(177, 175, 175);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 170px;
+    padding-top: 75px;
+    border-radius: 20px;
+    top: 100px;
+    left: 200px;
+}
+
+#profile{
+    position: absolute;
+    border-style: none;
+    border-radius: 100%;
+    left: 230px;
+    top: 880px;
+}
+
+#name{
+    position: absolute;
+    left: 270px;
+    top: 870px;
+    font-size: smaller;
+}
+
+
+
+#cap1{
+    border-radius: 20px;
+}
+
+
+
+#cap2{
+    position:absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1535px;
+    top: 535px;
+}
+
+#pic1{
+    position:absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1035px;
+    top: 100px;
+
+}
+
+#pic2{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1285px;
+    top: 100px;
+}
+
+#pic3{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1285px;
+    top: 615px;
+}
+
+#vid1{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1035px;
+    top: 425px;
+}
+
+#vid2{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1535px;
+    top: 100px;
+}
+
+
+#cap3{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1035px;
+    top: 850px;
+}
+
+#cap4{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1535px;
+    top: 865px;
+
+}
+
+#vid3{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1285px;
+    top: 1065px;
+}
+
+#pic4{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 200px;
+    top: 1045px;
+}
+
+#pic5{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 200px;
+    top: 1380px;
+}
+
+#vid4{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 460px;
+    top: 1045px;
+}
+
+#vid5{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1035px;
+    top: 1180px;
+}
+
+#pic6{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 1535px;
+    top: 1195px;
+}
+
+#pic7{
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    left: 460px;
+    top: 1495px;
+}
+
+#subtitleI{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 820px;
+    top: 1020px;
+}
+
+#art{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    border-style:none;
+    border-radius: 10px;
+    border-width: 2px;
+    left: 735px;
+    top: 1050px;
+
+    padding: 40px;
+    padding-left: 122.5px;
+    padding-right: 122.5px;
+
+    background-image: url(IMG_E0616.JPG);
+    background-position-y: 160px;
+    background-size: cover;
+}
+
+#fashion{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 2px;
+    left: 735px;
+    top: 1180px;
+
+    padding: 40px;
+    padding-left: 105px;
+    padding-right: 105px;
+
+    background-image: url(fashioninspo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#dance{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 2px;
+    left: 735px;
+    top: 1320px;
+
+    padding: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+
+    background-image: url(dance\ studio\ time.jpg);
+    background-position-y: 175px;
+    background-size: cover;
+    
+}
+
+#photography{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 2px;
+    left: 735px;
+    top: 1450px;
+
+    padding: 40px;
+    padding-left: 85px;
+    padding-right: 85px;
+
+    background-image: url(Camera\ pose\ idea.jpg);
+    background-position-y: 175px;
+    background-size: cover;
+}
+
+#fitness{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    position: absolute;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 2px;
+    left: 735px;
+    top: 1580px;
+
+    padding: 40px;
+    padding-left: 108px;
+    padding-right: 108px;
+
+    background-image: url(gym.jpg);
+    background-position-y: 190px;
+    background-size: cover;
+}
